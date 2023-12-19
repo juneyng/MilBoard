@@ -1,0 +1,24 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Righteous', sans-serif;
+}
+
+.left-side{
+  height:100%;
+	width: 300px;
+  float: left;
+  margin-right: 50px;
+  background-color : #fbfbfb;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: #FFF;
+}
+
