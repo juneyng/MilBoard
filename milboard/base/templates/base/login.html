@@ -1,14 +1,14 @@
 {% extends 'base/main.html' %}
 {% block content %}
 
-<h1>Login</h1>
+<h1>로그인</h1>
 
 <form method="POST">
     {% csrf_token %}
     {{form.as_p}}
     <input type="submit" value="Login">
 </form>
-
-<p>Don't you have an account? <a href="{% url 'register' %}">Register</a></p>
+<br>
+<p>아이디가 없으시다면 <a href="{% url 'register' %}">회원가입</a></p>
 
 {% endblock content %}
